@@ -101,7 +101,6 @@ int main() {
     enrollmentService->enrollStudent(student2->getId(), course3->getId());
     // Попытка записать студента повторно (должно быть предупреждение)
     enrollmentService->enrollStudent(student1->getId(), course1->getId());
-
     // 5. Преподаватель выставляет оценки
     std::cout << "\n5. Преподаватель выставляет оценки:" << std::endl;
     if (auto e1 = enrollmentRepo->getEnrollmentByStudentAndCourse(student1->getId(), course1->getId())) {
