@@ -1,0 +1,6 @@
+An Introduction to Design Patterns
+Gamma, Helm, Johnson, Vlissides
+This is the first paragraph of the article body.
+It describes the essence of the Builder pattern.
+The pattern separates object construction from its representation.
+15471754962881447366
